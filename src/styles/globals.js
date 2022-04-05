@@ -1,6 +1,5 @@
 // Libs
-import { ThemeProvider, createGlobalStyle } from "styled-components";
-
+import { ThemeProvider, createGlobalStyle } from 'styled-components'
 
 export const ThemeContainer = ThemeProvider
 
