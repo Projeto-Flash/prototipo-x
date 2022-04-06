@@ -1,4 +1,15 @@
 export const theme = {
+  icons: {
+    size: {
+      small: '5px',
+      medium: '10px',
+      large: '20px'
+    },
+    color: {
+      primaryColor: '#4B4A70',
+      secondaryColor: '#E5E5E5'
+    }
+  },
   colors: {
     primaryColor: '#0A1128',
     secondaryColor: '#dc143c',
