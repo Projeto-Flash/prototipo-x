@@ -1,9 +1,9 @@
 export const theme = {
   icons: {
     size: {
-      small: '5px',
-      medium: '10px',
-      large: '20px'
+      small: '25',
+      medium: '50',
+      large: '100'
     },
     color: {
       primaryColor: '#4B4A70',
