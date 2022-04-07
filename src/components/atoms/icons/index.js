@@ -34,13 +34,13 @@ const Icon = ({ name, size, color }) => {
   }
 
   function switchColor() {
-    const element = refObject.current.children
-    const arr = Object.values({ ...element })
+    const arr = Object.values({ ...refObject.current.children })
 
     if (arr.length === 0) {
       setIsLoaded(false)
     } else {
       arr.map(e => {
+        console.log('troquei de cor, viado')
         e.style.fill = icon.color
       })
     }
@@ -52,7 +52,7 @@ const Icon = ({ name, size, color }) => {
     } else {
       setIsLoaded(true)
     }
-  }, [isLoaded])
+  }, [isLoaded, { ...Icon.props }])
 
   return (
     <svg

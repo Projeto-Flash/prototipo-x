@@ -7,7 +7,6 @@ const Title = styled.h1``
 export default function Home() {
   return (
     <>
-      <Title>Ooi</Title>
       <Icon name="add" size="medium" color="primaryColor" />
     </>
   )
