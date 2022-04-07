@@ -1,7 +1,7 @@
 // Libs
 import * as S from '../styles/globals'
 
-// Styles
+// Styless
 import { theme } from '../styles/theme'
 
 function MyApp({ Component, pageProps }) {
