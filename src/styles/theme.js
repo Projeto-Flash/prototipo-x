@@ -1,24 +1,25 @@
 export const theme = {
-  icons: {
+  icon: {
     size: {
-      small: '25',
-      medium: '50',
-      large: '100'
-    },
-    color: {
-      primaryColor: '#4B4A70',
-      secondaryColor: '#E5E5E5'
+      small: '10',
+      medium: '12',
+      large: '15'
     }
   },
-  colors: {
-    primaryColor: '#0A1128',
-    secondaryColor: '#dc143c',
+  color: {
+    darkGrey: '#C4C4C4',
+    grey: '#E6E6E6',
+    lightGrey: '#E5E5E5',
+    lightGrafitti: '#DAD9F2',
+    grafitti: '#4B4A70',
+    blackGrafitti: '#2E3844',
     white: '#FFFFFF',
-    mediumGray: '#DDDDDD'
+    darkWhite: '#F8F8F8',
+    black: '#000000'
   },
   font: {
     family: {
-      default: "'Open Sans', sans-serif",
+      default: "'Rubik', sans-serif",
       secondary: "'Montserrat', sans-serif"
     },
     sizes: {
