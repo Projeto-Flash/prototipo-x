@@ -1,8 +1,8 @@
 // Libs
-import * as S from '../styles/globals'
+import * as S from 'styles/globals'
 
 // Styless
-import { theme } from '../styles/theme'
+import { theme } from 'styles/theme'
 
 function MyApp({ Component, pageProps }) {
   return (
