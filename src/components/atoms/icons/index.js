@@ -1,5 +1,5 @@
 //Theme
-import { theme } from '../../../styles/theme'
+import { theme } from 'styles/theme'
 //ReactHooks
 import { useRef, useState, useEffect } from 'react'
 //SVG Lib
@@ -17,8 +17,8 @@ const svgList = svgs.reduce((prev, next) => {
 
 const icons = {
   svg: svgList,
-  size: theme.icons.size,
-  color: theme.icons.color
+  size: theme.icon.size,
+  color: theme.color
 }
 
 const Icon = ({ name, size, color }) => {
@@ -40,8 +40,7 @@ const Icon = ({ name, size, color }) => {
       setIsLoaded(false)
     } else {
       arr.map(e => {
-        console.log('troquei de cor, viado')
-        e.style.fill = icon.color
+        e.style.fill = color.match('#') === null ? icon.color : color
       })
     }
   }
@@ -58,8 +57,7 @@ const Icon = ({ name, size, color }) => {
     <svg
       ref={refObject}
       data-src={icon.src}
-      width={icon.width}
-      height={icon.height}
+      style={{ width: icon.width, height: icon.height }}
     />
   )
 }
